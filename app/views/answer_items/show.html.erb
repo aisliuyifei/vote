@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Wx:</b>
+  <%= @answer_item.wx_id %>
+</p>
+
+<p>
+  <b>Question:</b>
+  <%= @answer_item.question_id %>
+</p>
+
+<p>
+  <b>Choice:</b>
+  <%= @answer_item.choice_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_answer_item_path(@answer_item) %> |
+<%= link_to 'Back', answer_items_path %>
